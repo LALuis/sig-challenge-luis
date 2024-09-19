@@ -3,42 +3,51 @@
     <p>Loading...</p>
 </ng-container>
 
-<!-- If we got the product from the backend -->
-<ng-container [formGroup]="form" *ngIf="!loading && !error">
-    <img [src]="form.get('image_url')?.value" alt="Product image">
+<div class="card-container" *ngIf="!loading && !error">
+    <div class="card-box">
+        <div class="product-image mb-15">
+            <img [src]="form.get('image_url')?.value" alt="Product image">
+        </div>
 
-    <p *ngIf="!editMode">Name: {{ form.get('name')?.value }}</p>
+        <div class="product-title mb-15">
+            <span *ngIf="!editMode">{{ form.get('name')?.value }} <img class="icon" src="assets/images/pencil.svg" (click)="switchEditMode()" *ngIf="!editMode"></span>
 
-    <ng-container *ngIf="editMode">
-        <label for="name">Name</label>
-        <input type="text" formControlName="name">
-    </ng-container>
+            <ng-container *ngIf="editMode">
+                <form [formGroup]="form">
+                    <input type="text" formControlName="name">
+                </form>
+            </ng-container>
+        </div>
 
-    <p>
-        "category": <app-category>{{form.get('category')?.value}}</app-category>
-    </p>
-    
-    <p>
-        "description": {{form.get('description')?.value}},
-    </p>
+        <div class="product-category mb-15">
+            <app-category>{{form.get('category')?.value}}</app-category>
+        </div>
 
-    <ng-container *ngIf="!editMode">
-        <p>Price: {{ form.get('price')?.value | currency: 'USD' }}</p>
-    </ng-container>
-    <ng-container *ngIf="editMode">
-         <label for="price">Price</label>
-         <input type="number" formControlName="price">
-     </ng-container>
+        <div class="product-description mb-15">
+            {{form.get('description')?.value}}
+        </div>
 
-    <button (click)="switchEditMode()" *ngIf="!editMode">Enable Edit mode</button>
-    <button (click)="updateProduct()" *ngIf="editMode">Save changes</button>
+        <div class="product-price mb-15">
+            <ng-container *ngIf="!editMode">
+                <span>{{ form.get('price')?.value | currency: 'USD' }}</span>
+            </ng-container>
+            <ng-container *ngIf="editMode">
+                <form [formGroup]="form">
+                    <input type="number" formControlName="price">
+                </form>
+            </ng-container>
+        </div>
 
-</ng-container>
+        <div class="product-card-button">
+            <!-- Go back button to return to the product list -->
+            <button class="outlined" routerLink="/products">Go back</button>
+            <!-- Save button to save the changes done in the form-->
+            <button (click)="updateProduct()" *ngIf="editMode">Save changes</button>
+        </div>
+    </div>
+</div>
 
 <!-- If we got an error-->
 <ng-container *ngIf="!loading && error">
     <p>{{ error }}</p>
 </ng-container>
-
-<!-- Go back button to return to the product list-->
-<button routerLink="/products">Go back</button>

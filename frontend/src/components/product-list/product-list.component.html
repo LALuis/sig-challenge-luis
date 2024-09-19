@@ -1,23 +1,39 @@
-<!-- If we are loading the data -->
-<ng-container *ngIf="loading">
-    <p>Loading...</p>
-</ng-container>
-
 <!-- If we got the product list from the backend -->
 <ng-container [formGroup]="form" *ngIf="!loading && !error">
-    <label for="category">Filter by category</label>
-    <select formControlName="category" name="category" (change)="getProducts()" >
-        <option [ngValue]="null">Select a category</option>
-        <option [ngValue]="category" *ngFor="let category of productService.categories | async">{{category}}</option>
-    </select>
-    <ng-container *ngFor="let product of productList">
-        <p (click)="goToProductDetail(product.id)">
-            {{  product.name }} - {{ product.price | currency: 'USD' }} - <app-category>{{ product.category }}</app-category>
-        </p>
-    </ng-container>
+    <!-- Product header where we will place the filter for categories -->
+    <div class="header-container">
+        <div class="dropdown">
+            <label class="header-label" for="category">Filter by category</label>
+            <select formControlName="category" name="category" (change)="getProducts()">
+                <option [ngValue]="null">All</option>
+                <option [ngValue]="category" *ngFor="let category of productService.categories | async">{{category}}
+                </option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Product list displaying 4 items per row in desktop and 1 item in mobile -->
+    <div class="product-list">
+        <div class="product-item" *ngFor="let product of productList" (click)="goToProductDetail(product.id)">
+            <div class="product-title">
+                {{ product.name }}
+            </div>
+            <div class="product-category">
+                <app-category>{{ product.category }}</app-category>
+            </div>
+            <div class="product-price">
+                {{ product.price | currency: 'USD' }}
+            </div>
+        </div>
+    </div>
 </ng-container>
 
 <!-- If we got an error-->
 <ng-container *ngIf="!loading && error">
     <p>{{ error }}</p>
+</ng-container>
+
+<!-- If we are loading the data -->
+<ng-container *ngIf="loading">
+    <p>Loading...</p>
 </ng-container>
