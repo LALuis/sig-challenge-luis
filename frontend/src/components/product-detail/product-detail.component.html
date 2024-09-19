@@ -3,6 +3,11 @@
     <p>Loading...</p>
 </ng-container>
 
+<!-- If we got an error-->
+<ng-container *ngIf="!loading && error">
+    <p>{{ error }}</p>
+</ng-container>
+
 <div class="card-container" *ngIf="!loading && !error">
     <div class="card-box">
         <div class="product-image mb-15">
@@ -46,8 +51,3 @@
         </div>
     </div>
 </div>
-
-<!-- If we got an error-->
-<ng-container *ngIf="!loading && error">
-    <p>{{ error }}</p>
-</ng-container>

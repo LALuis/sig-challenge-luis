@@ -1,3 +1,5 @@
+@import '../../assets/styles/variables';
+
 .product-header {
   display: grid;
   grid-template-columns: 1fr;
@@ -9,13 +11,14 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 
+  // Using the bootstrap medium breakpoint as a reference
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 }
 
 .product-item {
-  background-color: #f8f8f8;
+  background-color: $item-bg-color;
   padding: 16px;
   border-radius: 8px;
   text-align: center;
@@ -23,13 +26,13 @@
 }
 
 .product-item:hover {
-  background-color: darken(#f8f8f8, 10%);
+  background-color: darken($item-bg-color, 10%);
   cursor: pointer;
 }
 
 .header-container {
   width: 100%;
-  background-color: #474b51;
+  background-color: $header-bg-color;
   height: 80px;
   display: flex;
   flex-direction: column;
@@ -42,7 +45,7 @@
 .header-label {
   display: block;
   text-align: center;
-  color: #f8fdff;
+  color: $item-bg-color;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -53,11 +56,11 @@
 select {
   width: 100%;
   padding: 8px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid $header-bg-color;
   border-radius: 4px;
-  background-color: #f8fdff;
+  background-color: $application-bg-color;
   font-size: 16px;
-  color: #333;
+  color: $header-bg-color;
   cursor: pointer;
 }
 
