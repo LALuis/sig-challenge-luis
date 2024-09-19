@@ -1,0 +1,525 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "description": "A comfortable wireless mouse with ergonomic design and long battery life.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=Wireless+Mouse"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 79.99,
+    "description": "A high-quality mechanical keyboard with customizable keys and RGB backlighting.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=Mechanical+Keyboard",
+    "discount": 20
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "price": 49.99,
+    "description": "A surround sound gaming headset with noise-canceling microphone.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=Gaming+Headset"
+  },
+  {
+    "id": 4,
+    "name": "Laptop Stand",
+    "price": 39.99,
+    "description": "An adjustable laptop stand made of durable aluminum alloy for ergonomic use.",
+    "category": "Accessories",
+    "image_url": "https://placehold.co/600x400?text=Laptop+Stand"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 59.99,
+    "description": "Portable Bluetooth speaker with rich bass and waterproof design.",
+    "category": "Audio",
+    "image_url": "https://placehold.co/600x400?text=Bluetooth+Speaker"
+  },
+  {
+    "id": 6,
+    "name": "Smartphone Holder",
+    "price": 14.99,
+    "description": "Universal smartphone holder with 360-degree rotation for hands-free use.",
+    "category": "Accessories",
+    "image_url": "https://placehold.co/600x400?text=Smartphone+Holder",
+    "discount": 10
+  },
+  {
+    "id": 7,
+    "name": "Portable Charger",
+    "price": 24.99,
+    "description": "Compact power bank with 10,000mAh capacity and fast charging capabilities.",
+    "category": "Accessories",
+    "image_url": "https://placehold.co/600x400?text=Portable+Charger"
+  },
+  {
+    "id": 8,
+    "name": "USB-C Hub",
+    "price": 29.99,
+    "description": "Multi-port USB-C hub with HDMI, USB-A, and SD card reader.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=USB-C+Hub"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Earbuds",
+    "price": 69.99,
+    "description": "Noise-canceling wireless earbuds with touch controls and long battery life.",
+    "category": "Audio",
+    "image_url": "https://placehold.co/600x400?text=Wireless+Earbuds"
+  },
+  {
+    "id": 10,
+    "name": "External Hard Drive",
+    "price": 89.99,
+    "description": "Portable 2TB external hard drive with USB 3.0 for fast data transfer.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=External+Hard+Drive",
+    "discount": 15
+  },
+  {
+    "id": 11,
+    "name": "Fitness Tracker",
+    "price": 99.99,
+    "description": "Advanced fitness tracker with heart rate monitoring and GPS tracking.",
+    "category": "Wearables",
+    "image_url": "https://placehold.co/600x400?text=Fitness+Tracker"
+  },
+  {
+    "id": 12,
+    "name": "Smart Light Bulb",
+    "price": 19.99,
+    "description": "Wi-Fi enabled smart light bulb with adjustable brightness and color.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Smart+Light+Bulb"
+  },
+  {
+    "id": 13,
+    "name": "Noise-Canceling Headphones",
+    "price": 129.99,
+    "description": "Over-ear noise-canceling headphones with premium sound quality.",
+    "category": "Audio",
+    "image_url": "https://placehold.co/600x400?text=Noise-Canceling+Headphones",
+    "discount": 20
+  },
+  {
+    "id": 14,
+    "name": "Electric Toothbrush",
+    "price": 39.99,
+    "description": "Rechargeable electric toothbrush with multiple brushing modes.",
+    "category": "Personal Care",
+    "image_url": "https://placehold.co/600x400?text=Electric+Toothbrush"
+  },
+  {
+    "id": 15,
+    "name": "Smart Thermostat",
+    "price": 199.99,
+    "description": "Energy-saving smart thermostat with app control and learning capabilities.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Smart+Thermostat"
+  },
+  {
+    "id": 16,
+    "name": "Water Bottle",
+    "price": 12.99,
+    "description": "Insulated stainless steel water bottle that keeps drinks hot or cold for hours.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Water+Bottle",
+    "discount": 10
+  },
+  {
+    "id": 17,
+    "name": "Laptop Backpack",
+    "price": 49.99,
+    "description": "Durable laptop backpack with multiple compartments and water-resistant material.",
+    "category": "Accessories",
+    "image_url": "https://placehold.co/600x400?text=Laptop+Backpack"
+  },
+  {
+    "id": 18,
+    "name": "Desk Organizer",
+    "price": 19.99,
+    "description": "Multi-functional desk organizer with space for pens, documents, and gadgets.",
+    "category": "Office",
+    "image_url": "https://placehold.co/600x400?text=Desk+Organizer"
+  },
+  {
+    "id": 19,
+    "name": "Wireless Charger",
+    "price": 29.99,
+    "description": "Fast wireless charger compatible with most smartphones and smartwatches.",
+    "category": "Accessories",
+    "image_url": "https://placehold.co/600x400?text=Wireless+Charger"
+  },
+  {
+    "id": 20,
+    "name": "HD Webcam",
+    "price": 59.99,
+    "description": "1080p HD webcam with built-in microphone and adjustable stand.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=HD+Webcam",
+    "discount": 10
+  },
+  {
+    "id": 21,
+    "name": "Standing Desk Converter",
+    "price": 199.99,
+    "description": "Adjustable standing desk converter for improved ergonomics and productivity.",
+    "category": "Office",
+    "image_url": "https://placehold.co/600x400?text=Standing+Desk+Converter"
+  },
+  {
+    "id": 22,
+    "name": "LED Desk Lamp",
+    "price": 24.99,
+    "description": "Energy-efficient LED desk lamp with adjustable brightness and color temperature.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=LED+Desk+Lamp"
+  },
+  {
+    "id": 23,
+    "name": "Electric Kettle",
+    "price": 29.99,
+    "description": "Fast-boiling electric kettle with auto shut-off and 1.7-liter capacity.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Electric+Kettle"
+  },
+  {
+    "id": 24,
+    "name": "Air Fryer",
+    "price": 89.99,
+    "description": "Compact air fryer with adjustable temperature settings and non-stick basket.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Air+Fryer",
+    "discount": 20
+  },
+  {
+    "id": 25,
+    "name": "Espresso Machine",
+    "price": 149.99,
+    "description": "Automatic espresso machine with milk frother and adjustable brew strength.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Espresso+Machine"
+  },
+  {
+    "id": 26,
+    "name": "Vacuum Cleaner",
+    "price": 129.99,
+    "description": "Powerful cordless vacuum cleaner with multiple cleaning modes and long runtime.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Vacuum+Cleaner"
+  },
+  {
+    "id": 27,
+    "name": "Smart Plug",
+    "price": 14.99,
+    "description": "Wi-Fi smart plug that allows remote control of appliances via a mobile app.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Smart+Plug"
+  },
+  {
+    "id": 28,
+    "name": "Indoor Plant",
+    "price": 19.99,
+    "description": "Low-maintenance indoor plant that adds a touch of greenery to any space.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Indoor+Plant"
+  },
+  {
+    "id": 29,
+    "name": "Wireless Keyboard",
+    "price": 39.99,
+    "description": "Compact wireless keyboard with quiet keys and long battery life.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=Wireless+Keyboard"
+  },
+  {
+    "id": 30,
+    "name": "USB Flash Drive",
+    "price": 9.99,
+    "description": "32GB USB 3.0 flash drive with fast read/write speeds and compact design.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=USB+Flash+Drive"
+  },
+  {
+    "id": 31,
+    "name": "Instant Pot",
+    "price": 99.99,
+    "description": "Multi-functional electric pressure cooker with multiple cooking modes.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Instant+Pot"
+  },
+  {
+    "id": 32,
+    "name": "Dish Drying Rack",
+    "price": 29.99,
+    "description": "Stainless steel dish drying rack with space for dishes, glasses, and utensils.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Dish+Drying+Rack"
+  },
+  {
+    "id": 33,
+    "name": "Blender",
+    "price": 59.99,
+    "description": "Powerful blender with multiple speed settings and a large capacity jar.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Blender"
+  },
+  {
+    "id": 34,
+    "name": "Shower Speaker",
+    "price": 19.99,
+    "description": "Waterproof Bluetooth shower speaker with strong suction cup and clear sound.",
+    "category": "Audio",
+    "image_url": "https://placehold.co/600x400?text=Shower+Speaker"
+  },
+  {
+    "id": 35,
+    "name": "Action Camera",
+    "price": 129.99,
+    "description": "4K action camera with waterproof case and wide-angle lens.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=Action+Camera"
+  },
+  {
+    "id": 36,
+    "name": "Yoga Mat",
+    "price": 29.99,
+    "description": "Non-slip yoga mat made of eco-friendly material with cushioning support.",
+    "category": "Fitness",
+    "image_url": "https://placehold.co/600x400?text=Yoga+Mat"
+  },
+  {
+    "id": 37,
+    "name": "Resistance Bands",
+    "price": 14.99,
+    "description": "Set of resistance bands for strength training and home workouts.",
+    "category": "Fitness",
+    "image_url": "https://placehold.co/600x400?text=Resistance+Bands"
+  },
+  {
+    "id": 38,
+    "name": "Camping Tent",
+    "price": 149.99,
+    "description": "Lightweight camping tent for 4 people with waterproof rainfly and easy setup.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Camping+Tent"
+  },
+  {
+    "id": 39,
+    "name": "Sleeping Bag",
+    "price": 49.99,
+    "description": "Warm and lightweight sleeping bag suitable for all seasons.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Sleeping+Bag",
+    "discount": 15
+  },
+  {
+    "id": 40,
+    "name": "Portable Grill",
+    "price": 59.99,
+    "description": "Compact charcoal grill for outdoor cooking with foldable legs.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Portable+Grill"
+  },
+  {
+    "id": 41,
+    "name": "Bike Helmet",
+    "price": 39.99,
+    "description": "Durable bike helmet with adjustable straps and excellent ventilation.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Bike+Helmet"
+  },
+  {
+    "id": 42,
+    "name": "Running Shoes",
+    "price": 79.99,
+    "description": "Comfortable running shoes with cushioned sole and breathable upper.",
+    "category": "Fitness",
+    "image_url": "https://placehold.co/600x400?text=Running+Shoes"
+  },
+  {
+    "id": 43,
+    "name": "Smartwatch",
+    "price": 149.99,
+    "description": "Feature-rich smartwatch with fitness tracking, heart rate monitor, and GPS.",
+    "category": "Wearables",
+    "image_url": "https://placehold.co/600x400?text=Smartwatch"
+  },
+  {
+    "id": 44,
+    "name": "Tablet Stand",
+    "price": 19.99,
+    "description": "Adjustable tablet stand for convenient hands-free viewing.",
+    "category": "Accessories",
+    "image_url": "https://placehold.co/600x400?text=Tablet+Stand"
+  },
+  {
+    "id": 45,
+    "name": "Smart Doorbell",
+    "price": 129.99,
+    "description": "Smart doorbell with HD video, two-way audio, and motion detection.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Smart+Doorbell"
+  },
+  {
+    "id": 46,
+    "name": "Noise Machine",
+    "price": 39.99,
+    "description": "Portable noise machine with multiple sound settings for relaxation and sleep.",
+    "category": "Personal Care",
+    "image_url": "https://placehold.co/600x400?text=Noise+Machine"
+  },
+  {
+    "id": 47,
+    "name": "Robot Vacuum",
+    "price": 199.99,
+    "description": "Smart robot vacuum with Wi-Fi control, multiple cleaning modes, and self-charging.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Robot+Vacuum"
+  },
+  {
+    "id": 48,
+    "name": "Electric Scooter",
+    "price": 399.99,
+    "description": "Lightweight electric scooter with long battery life and foldable design.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Electric+Scooter",
+    "discount": 20
+  },
+  {
+    "id": 49,
+    "name": "Wireless Security Camera",
+    "price": 149.99,
+    "description": "Outdoor wireless security camera with night vision and motion alerts.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Wireless+Security+Camera"
+  },
+  {
+    "id": 50,
+    "name": "3D Printer",
+    "price": 499.99,
+    "description": "High-precision 3D printer with fast printing speeds and easy setup.",
+    "category": "Electronics",
+    "image_url": "https://placehold.co/600x400?text=3D+Printer"
+  },
+  {
+    "id": 51,
+    "name": "Pet Feeder",
+    "price": 89.99,
+    "description": "Automatic pet feeder with programmable feeding times and portion control.",
+    "category": "Pet Supplies",
+    "image_url": "https://placehold.co/600x400?text=Pet+Feeder"
+  },
+  {
+    "id": 52,
+    "name": "Inflatable Kayak",
+    "price": 249.99,
+    "description": "Durable inflatable kayak for two people with paddles and carrying bag.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Inflatable+Kayak"
+  },
+  {
+    "id": 53,
+    "name": "Electric Blanket",
+    "price": 59.99,
+    "description": "Soft electric blanket with adjustable heat settings and auto shut-off.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Electric+Blanket"
+  },
+  {
+    "id": 54,
+    "name": "Foam Roller",
+    "price": 24.99,
+    "description": "High-density foam roller for deep tissue massage and muscle recovery.",
+    "category": "Fitness",
+    "image_url": "https://placehold.co/600x400?text=Foam+Roller"
+  },
+  {
+    "id": 55,
+    "name": "Baby Monitor",
+    "price": 99.99,
+    "description": "Digital baby monitor with night vision, two-way audio, and temperature sensor.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Baby+Monitor",
+    "discount": 15
+  },
+  {
+    "id": 56,
+    "name": "Electric Skillet",
+    "price": 49.99,
+    "description": "Non-stick electric skillet with adjustable temperature settings for versatile cooking.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Electric+Skillet"
+  },
+  {
+    "id": 57,
+    "name": "Pressure Washer",
+    "price": 199.99,
+    "description": "Powerful electric pressure washer for outdoor cleaning with multiple nozzles.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Pressure+Washer"
+  },
+  {
+    "id": 58,
+    "name": "Video Doorbell",
+    "price": 129.99,
+    "description": "Wi-Fi video doorbell with HD video, live view, and motion-activated alerts.",
+    "category": "Home",
+    "image_url": "https://placehold.co/600x400?text=Video+Doorbell"
+  },
+  {
+    "id": 59,
+    "name": "Bluetooth Alarm Clock",
+    "price": 39.99,
+    "description": "Alarm clock with Bluetooth speaker, USB charging, and multiple alarms.",
+    "category": "Personal Care",
+    "image_url": "https://placehold.co/600x400?text=Bluetooth+Alarm+Clock"
+  },
+  {
+    "id": 60,
+    "name": "Electric Grill",
+    "price": 89.99,
+    "description": "Indoor electric grill with smokeless technology and adjustable temperature settings.",
+    "category": "Kitchen",
+    "image_url": "https://placehold.co/600x400?text=Electric+Grill"
+  },
+  {
+    "id": 61,
+    "name": "Smart Scale",
+    "price": 49.99,
+    "description": "Smart body scale with app integration, body composition analysis, and fitness tracking.",
+    "category": "Fitness",
+    "image_url": "https://placehold.co/600x400?text=Smart+Scale"
+  },
+  {
+    "id": 62,
+    "name": "Cordless Hair Clippers",
+    "price": 34.99,
+    "description": "Cordless hair clippers with multiple comb attachments for precise grooming.",
+    "category": "Personal Care",
+    "image_url": "https://placehold.co/600x400?text=Cordless+Hair+Clippers"
+  },
+  {
+    "id": 63,
+    "name": "Electric Pressure Washer",
+    "price": 179.99,
+    "description": "Compact electric pressure washer with high power and easy mobility.",
+    "category": "Outdoors",
+    "image_url": "https://placehold.co/600x400?text=Electric+Pressure+Washer",
+    "discount": 10
+  },
+  {
+    "id": 64,
+    "name": "Cordless Drill",
+    "price": 69.99,
+    "description": "Lightweight cordless drill with rechargeable battery and multiple speed settings.",
+    "category": "Tools",
+    "image_url": "https://placehold.co/600x400?text=Cordless+Drill"
+  }
+]
