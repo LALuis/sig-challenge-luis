@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { inject } from '@angular/core';
-import { Product } from 'src/model/product.interface';
-import { environment } from 'src/environment/environment';
+import { Product } from 'src/app/model/product.interface';
+import { environment } from 'src/app/environment/environment';
 import { map, switchMap } from 'rxjs/operators';
 import { BehaviorSubject, Observable } from 'rxjs';
 
